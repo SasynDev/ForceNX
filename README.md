@@ -1,22 +1,22 @@
 # ForceNX
 
-**A premium website capture and offline reconstruction tool for Windows.**
+**Premium Website Capture & Offline Reconstruction Tool for Windows.**
 
-ForceNX is a desktop application designed to discover website routes, capture accessible frontend resources, and export organized website projects for local inspection and reconstruction.
+ForceNX is a modern desktop application designed to capture multi-page website layouts, collect frontend assets, inspect interactive elements, and export organized website projects for local use.
 
 ## ✨ Features
 
-- **Multi-Page Discovery** — Discover accessible pages and routes beyond the landing page.
-- **Browser Automation** — Inspect rendered websites using a browser automation engine.
-- **Asset Collection** — Collect accessible images, fonts, stylesheets, and other frontend resources.
-- **Animation Inspection** — Preserve original styles and scripts where possible and identify unsupported interactions.
-- **Route Explorer** — View discovered pages and their capture status.
-- **Offline Export** — Export captured files and supported local website reconstructions.
-- **Visual Validation** — Compare screenshots and report missing resources.
-- **Modern Desktop UI** — A premium dark glassmorphism interface with subtle purple accents.
-- **Windows Support** — Designed for Windows desktop deployment.
+- **Multi-Page Capture** — Discover and capture accessible website routes beyond the landing page.
+- **Smart Route Discovery** — Explore navigation links, internal pages, and client-side routes.
+- **Asset Collection** — Collect accessible images, fonts, stylesheets, and frontend resources.
+- **Animation Preservation** — Preserve original CSS and JavaScript behavior where possible.
+- **Route Explorer** — Manage discovered pages and inspect capture status.
+- **Offline Reconstruction** — Export supported websites for local preview and inspection.
+- **Visual Validation** — Compare screenshots and identify missing resources.
+- **Modern Glass UI** — Premium dark glassmorphism with elegant purple accents.
+- **Windows Desktop Application** — Native desktop experience with organized project management.
 
-## 🛠️ Technology Stack
+## 🛠️ Technology
 
 - C++20
 - Qt 6
@@ -25,40 +25,38 @@ ForceNX is a desktop application designed to discover website routes, capture ac
 - Playwright
 - SQLite
 
-## 📦 Download
+## 📥 Download
 
-Download the latest Windows release from the repository's **Releases** section.
+Get the latest Windows release from the [Releases](../../releases) page.
 
-Choose the packaged Windows distribution and follow the included installation instructions.
+Download the packaged Windows distribution, extract it if necessary, and launch `ForceNX.exe`.
 
 ## 🚀 Getting Started
 
-1. Download the latest available Windows release.
-2. Extract the portable package or run the installer, depending on the release format.
+1. Download the latest release.
+2. Extract the package or install the application.
 3. Launch `ForceNX.exe`.
-4. Enter a website URL you are authorized to inspect.
+4. Enter the URL of a website you are authorized to inspect.
 5. Configure capture options and start scanning.
-6. Review discovered routes, assets, and errors.
-7. Export the captured project.
+6. Review discovered routes, assets, and capture errors.
+7. Export your project for local use.
 
-## ⚠️ Important Limitations
+## ⚠️ Limitations
 
-ForceNX captures accessible frontend resources; it does not automatically download a website's private server code or database.
+ForceNX captures accessible frontend resources. It cannot automatically reproduce every server-side feature, private database, API, payment system, or authenticated user experience.
 
-Authentication-protected pages require authorized access. APIs, payment processing, server-side functionality, and live user data may not work offline.
-
-Capture completeness depends on the website architecture, browser behavior, access permissions, and available resources.
+Some websites may require additional configuration. Animation and interaction fidelity depends on the site's architecture and the resources available.
 
 ## 🔒 Responsible Use
 
-Use ForceNX only on websites you own or are authorized to inspect. Respect copyright, licenses, privacy, website terms, and applicable access restrictions.
+Use ForceNX only on websites you own or have permission to inspect. Respect copyright, software licenses, privacy, website terms, and applicable access restrictions.
 
-Do not use the application to bypass authentication or other access controls.
+ForceNX is not intended to bypass authentication or access controls.
 
 ## 📋 Project Status
 
-ForceNX is under development. Features, compatibility, and packaging may change between releases.
+ForceNX is actively under development. Features and compatibility may evolve between releases.
 
 ## 📄 License
 
-This project is distributed under the MIT License. See the `LICENSE` file for the full license text.
+Distributed under the MIT License. See the `LICENSE` file for details.
